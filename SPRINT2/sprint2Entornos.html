@@ -7,8 +7,12 @@
 	<style type="text/css">
 		body {margin: 10px; font-family: sans-serif;}
 		img {max-width: 100%;}
-		fieldset { margin: 20px 0px; padding: 10px; border: 2px solid #333; }
-		legend { paddgin: 5px; font-size: 1.2em; font-weight: bold; }
+		fieldset#mc { margin: 50px 0px; padding: 10px; border: 2px solid #333; background-color: #dfecff; }
+		#mc legend { paddgin: 5px; font-size: 1.2em; font-weight: bold; }
+		#mc img { border: 5px solid #ccc; max-width: 99%; }
+		#mc pre.console { border: 4px solid #666; padding: 10px; color: white; background-color: black; }
+		#mc div.separator {margin: 30px 0; width: 100%; height: 5px; border: 1px solid #666; background-color: #666;}
+		#mc a { display: block; margin: 5px;}
 	</style>
 </head>
 <body>
@@ -47,21 +51,47 @@
 	<img src="plugins_David.png" />
 	<img src="config_JDK_David.png" />
 	
-	<fieldset>
+	<fieldset id="mc">
 		<legend>Miguel A. Carmona</legend>
+		
 		<h2>Instalación de Java JDK</h2>
 		<h3>Miguel Ángel Carmona Sánchez</h3>
-		<p> JAVA JDK  ver. 11.0.13<br />
-		C:\Program Files\Java\jdk-11.0.13</p>
+		<p>JAVA JDK  ver. 11.0.13<br />C:\Program Files\Java\jdk-11.0.13</p>
 		<img src="MiguelCarmona_files/captura-ruta-jdk.jpg" />
-		<h2></h2>
-		<p></p>
-		<h2></h2>
-		<p></p>
-		<h2></h2>
-		<p></p>
-		<h2></h2>
-		<p></p>
+		<pre class="console">C:\Users\MiguelCarmona>echo %JAVA_HOME%
+C:\Program Files\Java\jdk-11.0.13</pre>
+		<img src="MiguelCarmona_files/captura-variables-entorno.jpg" />
+		<div class="separator"></div>
+		
+		<h2>Instalación de Entornos de Desarrollo</h2>
+		<h3>Miguel Ángel Carmona Sánchez</h3>
+		<p>Eclipse IDE 2021-09 for Java Developers<br />
+		Version: 2021-09 (4.21.0)<br />
+		Build id: 20210910-1417</p>
+		<img src="MiguelCarmona_files/captura-eclipse.jpg" />
+		<div class="separator"></div>
+		
+		<h2>Configuración de Entornos de Desarrollo</h2>
+		<h3>Miguel Ángel Carmona Sánchez</h3>
+		<p>Plugins instalados:
+			<ul>
+				<li>SonarLint</li>
+				<li>Junit-Tools</li>
+				<li>TestNG for Eclipse</li>
+				<li>Prettier</li>
+			</ul>
+		</p>
+		<img src="MiguelCarmona_files/captura-plugins.jpg" />
+		<p>Para configurar JDK en eclipse, añadir al archivo eclipse.ini:</p>
+		<pre>-vm
+C:\progra~1\Java\jdk-11.0.13\bin\javaw.exe</pre>
+		<img src="MiguelCarmona_files/captura-eclipse-config-jdk.jpg" />
+		<div class="separator"></div>
+
+		<h2>Creación y ejecución de Proyectos JAVA</h2>
+		<h3>Miguel Ángel Carmona Sánchez</h3>
+		<a href="MiguelCarmona_files/HolaMundo.jar">HolaMundo.jar</a>
+		<img src="MiguelCarmona_files/captura-HolaMundo.jpg" />
 	</fieldset>
 </body>
 </html>
