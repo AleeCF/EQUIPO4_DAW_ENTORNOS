@@ -1,0 +1,67 @@
+<html>
+<head>
+	<TITLE>SPRINT 2 - ENTORNOS</TITLE>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="EQUIPO 4" />
+	<style type="text/css">
+		body {margin: 10px; font-family: sans-serif;}
+		img {max-width: 100%;}
+		fieldset { margin: 20px 0px; padding: 10px; border: 2px solid #333; }
+		legend { paddgin: 5px; font-size: 1.2em; font-weight: bold; }
+	</style>
+</head>
+<body>
+	<h2>Repositorios Git</h2>
+	<h2>Instalación de JAVA JDK</h2>
+	<h3>Alejandro Rebola Casquero</h3>
+	<p> C:\Program Files\Java\jdk-17.0.1 </p>
+	<img src="JDK.png"></img>
+
+
+	<h2>Instalación de Entornos de Desarrollo</h2>
+	<h3>Alejandro Rebola Casquero</h3>
+	<p> C:\Program Files\Java\jdk-17.0.1 </p>
+	<img src="eclipse.png"></img>
+
+
+	<h2>Configuracion de Entornos de Desarrollo</h2>
+	<h3>Alejandro Rebola Casquero</h3>
+	<p> C:\Program Files\Java\jdk-17.0.1 </p>
+	<img src="configuracion.png"></img>
+
+	<h2>Repositorios Git</h2>
+	<h2>Instalación de JAVA JDK</h2>
+	<h3>David Navarro Fajardo</h3>
+	<p>Versión: 1.8.0_191 - C:\Program Files\Java\jdk1.8.0_191</p>
+	<img src="JDK_David.PNG" />
+
+	<h2>Instalación de Entornos de Desarrollo</h2>
+	<h3>David Navarro Fajardo</h3>
+	<p>Eclipse, Versión 2021-09</p>
+	<img src="Eclipse_David.PNG"></img>
+
+	<h2>Configuracion de Entornos de Desarrollo</h2>
+	<h3>David Navarro Fajardo</h3>
+	<p>Sonarlint, Junit-Tools, TestNG for Eclipse y Prettier</p>
+	<img src="plugins_David.png" />
+	<img src="config_JDK_David.png" />
+	
+	<fieldset>
+		<legend>Miguel A. Carmona</legend>
+		<h2>Instalación de Java JDK</h2>
+		<h3>Miguel Ángel Carmona Sánchez</h3>
+		<p> JAVA JDK  ver. 11.0.13<br />
+		C:\Program Files\Java\jdk-11.0.13</p>
+		<img src="mc-captura-ruta-jdk.jpg" />
+		<h2></h2>
+		<p></p>
+		<h2></h2>
+		<p></p>
+		<h2></h2>
+		<p></p>
+		<h2></h2>
+		<p></p>
+	</fieldset>
+</body>
+</html>
